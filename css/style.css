@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgb(9, 103, 121);
+  background: linear-gradient(90deg, rgb(9, 103, 121) 44%, rgb(11, 61, 167) 100%);
+}
+
+.dropdown-menu {
+  --bs-dropdown-color: aqua;
+  --bs-dropdown-link-active-color: #e40f0f;
+}
+
+#color {
+  background-color: rgba(44, 134, 86, 0.1);
+  color: #2c8656;
+  border-radius: 0;
+  margin-bottom: 50px;
+  border: transparent;
+}
+
+#color-2 {
+  border-radius: 0;
+  border: transparent;
+}
+
+#color-3 {
+  background-color: rgba(44, 134, 86, 0.1);
+  color: #2c8656;
+  border-radius: 0;
+  margin-bottom: 20px;
+  border: transparent;
+}
+
+#letra {
+  color: #2c8656;
+}
+
+.listas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.dropdown-menu {
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.acordeon {
+  margin: 10px;
+  border-color: transparent;
+}
+
+#acor {
+  border-radius: 0;
+  margin-left: 50px;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
