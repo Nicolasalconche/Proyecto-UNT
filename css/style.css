@@ -4,9 +4,34 @@
   box-sizing: border-box;
 }
 
-header {
-  background: rgb(9, 103, 121);
-  background: linear-gradient(90deg, rgb(9, 103, 121) 44%, rgb(11, 61, 167) 100%);
+#footer {
+  background-color: #333;
+  color: grey;
+}
+
+#acomodar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: black;
+}
+
+#piePagina {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: white;
+  font-size: small;
 }
 
 .dropdown-menu {
@@ -60,9 +85,9 @@ header {
   border-color: transparent;
 }
 
-#acor {
-  border-radius: 0;
-  margin-left: 50px;
+header {
+  background: rgb(9, 103, 121);
+  background: linear-gradient(90deg, rgb(9, 103, 121) 44%, rgb(11, 61, 167) 100%);
 }
 
 @media (max-width: 800px) {

@@ -1,0 +1,32 @@
+
+ 
+#footer{
+    background-color: #333;
+    color: grey;
+ }
+
+ #acomodar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+
+  footer{
+    
+    background-color: black;
+  }
+
+  #piePagina{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+    font-size: small;
+}
